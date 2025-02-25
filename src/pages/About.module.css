@@ -1,0 +1,50 @@
+/* Image container */
+.imageContainer {
+    width: 100%;
+    max-width: 350px;
+    height: 400px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border-radius: 10%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Image Hover Effect */
+  .rotatingImage {
+    width: 90%;
+    height: 90%;
+    border-radius: 10%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rotatingImage:hover {
+    transform: rotate(15deg);
+  }
+  
+  /* Card Styling */
+  .cardCustom {
+    background-color: #0d0d3d;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .cardCustom:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Responsive text alignment */
+  .textContainer {
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .textContainer {
+      text-align: left;
+    }
+  }
+  
