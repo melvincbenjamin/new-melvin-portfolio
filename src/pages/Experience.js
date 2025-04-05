@@ -23,7 +23,6 @@ function ExperienceComponent() {
             { skill: "CSS", level: "Experienced" },
             { skill: "JavaScript", level: "Experienced" },
             { skill: "Bootstrap", level: "Intermediate" },
-            { skill: "Tailwind", level: "Intermediate" },
             { skill: "React", level: "Experienced" }
           ].map(({ skill, level }, index) => (
             <Col xs={12} sm={6} md={4} key={index} data-aos="fade-up">
@@ -42,12 +41,10 @@ function ExperienceComponent() {
         <h4 className="text-success fw-bold text-center mt-5 mb-3">Backend Development</h4>
         <Row className="gy-4">
           {[
-            { skill: "Node.js", level: "Intermediate" },
             { skill: "MongoDB", level: "Intermediate" },
-            { skill: "PHP", level: "Intermediate" },
             { skill: "Python", level: "Experienced" },
             { skill: "MySQL", level: "Intermediate" },
-            { skill: "JAVA", level: "Intermediate" }
+            { skill: "Django", level: "Intermediate" },
           ].map(({ skill, level }, index) => (
             <Col xs={12} sm={6} md={4} key={index} data-aos="fade-up">
               <Card className="text-center border-0 shadow-sm skill-card">
