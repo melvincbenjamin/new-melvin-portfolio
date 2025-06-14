@@ -1,14 +1,14 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import melvin from '../assets/images/melvin.jpeg';
-import melvin_benjamin from '../assets/files/melvin_benjamin_CV.pdf';
+import Melvin2CV from '../assets/files/Melvin2CV.docx.pdf';
 
 const Home = () => {
   const handleDownloadCV = () => {
-    const cvUrl = melvin_benjamin;
+    const cvUrl = Melvin2CV;
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "Melvin_Benjamin_CV.pdf";
+    link.download = "Melvin2CV.docx.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

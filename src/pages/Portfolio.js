@@ -10,6 +10,7 @@ import port3 from "../assets/images/port3.png";
 import port4 from "../assets/images/port4.png";
 import port5 from "../assets/images/port5.png";
 import port6 from "../assets/images/port6.png";
+import port7 from "../assets/images/port7.png";
 
 function Portfolio() {
   useEffect(() => {
@@ -25,7 +26,9 @@ function Portfolio() {
     { image: port3, github: "https://github.com/Fahyvor/flexysub-frontend/", liveDemo: "https://www.flexysub.ng/" },
     { image: port4, github: "https://github.com/melvincbenjamin/", liveDemo: "https://speedupcreative.onrender.com/" },
     { image: port5, github: "#", liveDemo: "https://tech19.onrender.com/" },
-    { image: port6, github: "#", liveDemo: "https://cmonlineradio.vercel.app/" }
+    { image: port6, github: "#", liveDemo: "https://cmonlineradio.vercel.app/" },
+    { image: port7, github: "https://github.com/melvincbenjamin/new-melvin-portfolio", liveDemo: "https://melvincbenjamin-portfolio.web.app" },
+
   ];
 
   return (

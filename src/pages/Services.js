@@ -57,25 +57,25 @@ function ServicesComponent() {
             </Card>
           </Col>
 
-          {/* Data Science */}
+          {/* Cyber Security */}
           <Col xs={12} md={4} data-aos="fade-up">
             <Card className="text-center border-0 shadow-sm service-card h-100">
               <div className="icon-title-section">
                 <BarChart size={30} className="text-light me-2" />
                 <div>
-                  <Card.Title className="fw-bold fs-6 text-light mb-0">Data Science</Card.Title>
+                  <Card.Title className="fw-bold fs-6 text-light mb-0">Cyber Security</Card.Title>
                   <small className="text-muted fst-italic">in progress...</small>
                 </div>
               </div>
               <Card.Body className="d-flex flex-column">
                 <Card.Text className="flex-grow-1">
                   <ul className="text-light">
-                    <li><CheckCircle className="text-primary me-2" />Data Analysis</li>
-                    <li><CheckCircle className="text-primary me-2" />Machine Learning</li>
-                    <li><CheckCircle className="text-primary me-2" />Deep Learning</li>
-                    <li><CheckCircle className="text-primary me-2" />Big Data</li>
-                    <li><CheckCircle className="text-primary me-2" />Data Visualization</li>
-                    <li><CheckCircle className="text-primary me-2" />Statistical Modeling</li>
+                    <li><CheckCircle className="text-primary me-2" />Network Security</li>
+                    <li><CheckCircle className="text-primary me-2" />Threat Detection & Response</li>
+                    <li><CheckCircle className="text-primary me-2" />Security Information & Event Management (SIEM)</li>
+                    <li><CheckCircle className="text-primary me-2" />Vulnerability Assessment</li>
+                    <li><CheckCircle className="text-primary me-2" />Incident Response</li>
+                    <li><CheckCircle className="text-primary me-2" />Ethical Hacking & Penetration Testing</li>
                   </ul>
                 </Card.Text>
               </Card.Body>

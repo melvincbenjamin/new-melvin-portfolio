@@ -24,7 +24,7 @@ function AboutSection() {
           {/* Right Section - About Me Text & Cards */}
           <Col xs={12} md={7} className={styles.textContainer}>
             <h6 className="text-uppercase text-secondary">Get to know</h6>
-            <h2 className="fw-bold text-primary fs-4">About Me</h2>
+            <h2 className="fw-bold text-white fs-4">About Me</h2>
 
             {/* Cards Section */}
             <Row className="mt-4 g-3">
@@ -38,7 +38,7 @@ function AboutSection() {
                     <Card.Body style={{ backgroundColor: '#1C1C5A', borderRadius: 10}}>
                       {card.icon}
                       <Card.Title className="fw-bold text-primary">{card.title}</Card.Title>
-                      <Card.Text className="text-secondary">{card.text}</Card.Text>
+                      <Card.Text className="text-white">{card.text}</Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -46,9 +46,9 @@ function AboutSection() {
             </Row>
 
             {/* About Me Paragraph */}
-            <p className="text-secondary mt-4">
+            <p className="text-white mt-4">
               <span className="text-primary">Chinedu Melvin Benjamin,</span> a Nigerian Computer Scientist, FullStack Web Developer,
-              Data Scientist, Independent Consultant, and Co-founder of Trading Times company.  
+              Cyber Security, Independent Consultant for Real Estate, and Co-founder of Trading Times company.  
               I graduated from <strong>Michael Okpara University</strong>, where I started my Web Development journey.
             </p>
             
